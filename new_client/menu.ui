@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QWidget" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>个人信息</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>人脸认证</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>开始考勤</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>查看考勤记录</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>返回登录界面</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

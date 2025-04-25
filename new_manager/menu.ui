@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QWidget" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="1">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>考勤记录</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>员工信息</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+           background-color: #1E90FF;
+           border-radius: 10px;
+           color: white;
+           padding: 8px 16px;
+           border: none;
+           font-weight: bold;
+        }
+        QPushButton:hover {
+           background-color: #187BCD;
+        }
+        QPushButton:pressed {
+           background-color: #104E8B;
+        }</string>
+       </property>
+       <property name="text">
+        <string>查看考勤</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="0">
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
