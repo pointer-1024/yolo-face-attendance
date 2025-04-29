@@ -121,9 +121,7 @@ void FaceRecognition::takePhoto()
 void FaceRecognition::onImageCaptured(int id, const QImage &preview)
 {
     Q_UNUSED(id);
-    //QPixmap pixmap = QPixmap::fromImage(preview);
-    //ui->label_2->setPixmap(pixmap.scaled(ui->label_2->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation));
-
+    
     // 设置 YuNet 使用 CUDA 后端
     Ptr<FaceDetectorYN> detector = FaceDetectorYN::create(
         "C:/Users/zq/Downloads/face_detection_yunet_2023mar.onnx",
@@ -136,7 +134,6 @@ void FaceRecognition::onImageCaptured(int id, const QImage &preview)
    recognizer.setPreferableTarget(DNN_TARGET_CUDA);
    // 加载两张图像
    Mat img1 = QImageToCvMat(currentImage);
-   //Mat img2 = imread("C:/Users/zq/Desktop/js/1.png");
    Mat img2 = QImageToCvMat(preview);
 
    // 检测 + 裁剪人脸
